@@ -1,0 +1,23 @@
+{
+  "name": "country-explorer",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "@mdi/font": "^7.4.47",
+    "axios": "^1.8.4",
+    "vue": "^3.4.15",
+    "vue-router": "^4.5.0",
+    "vuetify": "^3.5.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.3",
+    "gh-pages": "^6.1.1",
+    "vite": "^5.0.12"
+  }
+}
